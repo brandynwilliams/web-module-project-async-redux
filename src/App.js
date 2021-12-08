@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
+import Users from './component/users'
 
 function App() {
   return (
     <div className="App">
-      Async Redux Project
+      <h1>Async Redux Project</h1>
+      <Users/>
     </div>
   );
 }
